@@ -20,3 +20,5 @@ class TestPitch(unittest.TestCase):
     def test_check_instance_variables(self):
         self.assertEquals(self.new_comment.comment_content,"One comment")
         self.assertEquals(self.new_comment.pitch,self.new_pitch, 'pitch one')
+
+        
